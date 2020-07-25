@@ -1,0 +1,78 @@
+/*
+#023373 Color primario
+#0367A6 Color secundario
+#048ABF Color variacion
+#FFFFFF Color Claro
+*/
+
+.header{
+    background-color: #023373;
+    width: 100%;
+    height: 200px;
+}
+
+.header__container{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+    background-color: blueviolet;
+    height: 100%;
+}
+
+.header__imagen{
+    background-color:aqua;
+    width: 100%;
+    height: 100%;
+
+}
+.header__imagen-perfil{
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+}
+
+.header__container-navbar{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70% 30%;
+    width: 100%;
+}
+
+.header__titulo{
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+
+.header__titulo h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.header__navbar{
+    background-color: blanchedalmond;
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
+.header__navbar-item{
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+}
+
+.header__navbar-item:hover{
+    background-color: blue;
+}
+
